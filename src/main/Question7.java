@@ -7,5 +7,9 @@ public class Question7 {
 }
 
 class Ques7 {
+    private String str;
 
+    public Ques7(String str) {
+        this.str = str;
+    }
 }
