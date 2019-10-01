@@ -11,5 +11,6 @@ public class Question2 {
 }
 
 class Ques2 {
-
+    private String str;
+    private int index;
 }
