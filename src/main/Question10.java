@@ -4,18 +4,19 @@ import java.util.Scanner;
 
 public class Question10 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);\
+        Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         char ch = s.next().charAt(0);
-
+        Ques10 q = new Ques10(str, ch);
+        System.out.println(q.index());
     }
 }
 
-class Ques8 {
+class Ques10 {
     private char ch;
     private String str;
 
-    public Ques8(char ch) {
+    public Ques10(String str, char ch) {
         this.ch = ch;
         this.str = str;
     }
