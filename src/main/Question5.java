@@ -13,4 +13,9 @@ public class Question5 {
 class Ques5 {
     private String str;
     private String substr;
+
+    public Ques5(String str, String substr) {
+        this.str = str;
+        this.substr = substr;
+    }
 }
