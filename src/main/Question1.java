@@ -13,4 +13,8 @@ public class Question1 {
 class Ques1 {
     private String str;
 
+    public Ques1(String str) {
+        this.str = str;
+    }
+
 }
