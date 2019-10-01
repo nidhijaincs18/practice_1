@@ -7,6 +7,8 @@ public class Question5 {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         String substr = s.nextLine();
+        Ques5 q = new Ques5(str, substr);
+        System.out.println(q.subString());
     }
 }
 
