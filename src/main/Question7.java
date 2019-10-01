@@ -12,4 +12,12 @@ class Ques7 {
     public Ques7(String str) {
         this.str = str;
     }
+
+    public String getStr() {
+        return str;
+    }
+
+    public void setStr(String str) {
+        this.str = str;
+    }
 }
