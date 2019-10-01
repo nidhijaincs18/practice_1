@@ -39,7 +39,11 @@ class Ques5 {
 
     public String subString() {
         String s = getStr().toLowerCase();
-        s = s.replaceAll(getSubstr().toLowerCase(), "---");
+        String st = "";
+        for (int i = 0; i < getSubstr().length(); i++) {
+            st += "-";
+        }
+        s = s.replaceAll(getSubstr().toLowerCase(), st);
         return s;
     }
 }
