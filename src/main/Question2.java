@@ -34,4 +34,8 @@ class Ques2 {
     public void setIndex(int index) {
         this.index = index;
     }
+
+    public String subStr() {
+        return getStr().substring(getIndex());
+    }
 }
