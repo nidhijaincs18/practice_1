@@ -6,6 +6,8 @@ public class Question6 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
+        Ques6 q = new Ques6(str);
+        System.out.println(q.ucase());
     }
 }
 
