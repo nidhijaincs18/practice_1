@@ -12,6 +12,10 @@ public class Question10 {
 class Ques8 {
     private char ch;
 
+    public Ques8(char ch) {
+        this.ch = ch;
+    }
+
 
 
 }
