@@ -6,6 +6,8 @@ public class Question7 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
+        Ques7 q = new Ques7(str);
+        System.out.println(q.totalWeight());
     }
 }
 
