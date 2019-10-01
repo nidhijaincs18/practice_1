@@ -13,4 +13,9 @@ public class Question2 {
 class Ques2 {
     private String str;
     private int index;
+
+    public Ques2(String str, int index) {
+        this.str = str;
+        this.index = index;
+    }
 }
