@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class Question10 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        String ch = s.nextLine();
+        char ch = s.next().charAt(0);
     }
 }
 
 class Ques8 {
+    private String ch;
+
 
 }
