@@ -18,4 +18,12 @@ class Ques5 {
         this.str = str;
         this.substr = substr;
     }
+
+    public String getStr() {
+        return str;
+    }
+
+    public String getSubstrtr() {
+        return substr;
+    }
 }
