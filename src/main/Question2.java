@@ -18,4 +18,12 @@ class Ques2 {
         this.str = str;
         this.index = index;
     }
+
+    public String getStr() {
+        return str;
+    }
+
+    public int getIndex() {
+        return index;
+    }
 }
