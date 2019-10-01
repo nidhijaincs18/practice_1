@@ -32,6 +32,11 @@ class Ques1 {
             sb.append(i + "\t");
 
         }
+        return sb.toString();
+    }
+
+    public String chars() {
+
     }
 
 }
