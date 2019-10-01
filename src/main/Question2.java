@@ -9,3 +9,7 @@ public class Question2 {
         String str = s.nextLine();
     }
 }
+
+class Ques2 {
+
+}
