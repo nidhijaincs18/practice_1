@@ -24,4 +24,8 @@ class Ques6 {
         this.str = str;
     }
 
+    public String ucase() {
+        return getStr().toUpperCase();
+    }
+
 }
