@@ -25,7 +25,7 @@ class Ques5 {
         return str;
     }
 
-    public String getSubstrtr() {
+    public String getSubstr() {
         return substr;
     }
 
@@ -38,8 +38,8 @@ class Ques5 {
     }
 
     public String subString() {
-        String s = getStr();
-        s = s.replaceAll(getSubstrtr(), "---");
+        String s = getStr().toLowerCase();
+        s = s.replaceAll(getSubstr().toLowerCase(), "---");
         return s;
     }
 }
