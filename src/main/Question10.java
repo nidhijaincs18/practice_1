@@ -16,6 +16,10 @@ class Ques8 {
         this.ch = ch;
     }
 
+    public char getCH() {
+        return ch;
+    }
+
 
 
 }
