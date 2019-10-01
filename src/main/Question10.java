@@ -10,7 +10,8 @@ public class Question10 {
 }
 
 class Ques8 {
-    private String ch;
+    private char ch;
+
 
 
 }
