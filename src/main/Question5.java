@@ -34,4 +34,10 @@ class Ques5 {
     public void setSubstr(String substr) {
         this.substr = substr;
     }
+
+    public String subString() {
+        String s = getStr();
+        s = s.replaceAll(getSubstrtr(), "---");
+        return s;
+    }
 }
