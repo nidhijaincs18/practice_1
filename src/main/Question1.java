@@ -17,4 +17,8 @@ class Ques1 {
         this.str = str;
     }
 
+    public String getStr() {
+        return str;
+    }
+
 }
