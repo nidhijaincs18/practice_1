@@ -8,6 +8,7 @@ public class Question2 {
         int index = Integer.parseInt(s.nextLine());
         String str = s.nextLine();
         Ques2 q = new Ques2(str, index);
+        System.out.println(q.subStr());
 
 
     }
