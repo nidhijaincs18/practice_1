@@ -7,6 +7,7 @@ public class Question1 {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         Ques1 q = new Ques1(str);
+        System.out.println(q.index() + "\n" + q.chars());
     }
 }
 
