@@ -20,4 +20,12 @@ class Ques7 {
     public void setStr(String str) {
         this.str = str;
     }
+
+    public int totalWeight() {
+        int sum = 0;
+        for (int i = 0; i < getStr().length(); i++) {
+            sum += (int) str.charAt(i);
+        }
+        return sum;
+    }
 }
