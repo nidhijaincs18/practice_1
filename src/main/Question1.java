@@ -26,7 +26,7 @@ class Ques1 {
     }
 
     public String index() {
-
+        StringBuilder sb = new StringBuilder();
     }
 
 }
