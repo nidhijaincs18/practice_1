@@ -7,6 +7,9 @@ public class Question2 {
         Scanner s = new Scanner(System.in);
         int index = Integer.parseInt(s.nextLine());
         String str = s.nextLine();
+        Ques2 q = new Ques2(str, index);
+
+
     }
 }
 
