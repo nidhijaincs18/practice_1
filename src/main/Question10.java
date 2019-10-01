@@ -8,3 +8,7 @@ public class Question10 {
         String ch = s.nextLine();
     }
 }
+
+class Ques8 {
+
+}
