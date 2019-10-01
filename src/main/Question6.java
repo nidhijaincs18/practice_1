@@ -17,4 +17,8 @@ class Ques6 {
         return str;
     }
 
+    public void setStr(String str) {
+        this.str = str;
+    }
+
 }
