@@ -6,7 +6,7 @@ public class Question1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
-
+        Ques1 q = new Ques1(str);
     }
 }
 
@@ -36,6 +36,13 @@ class Ques1 {
     }
 
     public String chars() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("chars: ");
+        for (int i = 0; i < getStr().length(); i++) {
+            sb.append(getStr().charAt(i) + "\t");
+
+        }
+        return sb.toString();
 
     }
 
