@@ -25,4 +25,8 @@ class Ques1 {
         this.str = str;
     }
 
+    public String index() {
+
+    }
+
 }
