@@ -9,3 +9,7 @@ public class Question5 {
         String substr = s.nextLine();
     }
 }
+
+class Ques5 {
+
+}
