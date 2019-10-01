@@ -26,4 +26,12 @@ class Ques5 {
     public String getSubstrtr() {
         return substr;
     }
+
+    public void setStr(String str) {
+        this.str = str;
+    }
+
+    public void setSubstr(String substr) {
+        this.substr = substr;
+    }
 }
