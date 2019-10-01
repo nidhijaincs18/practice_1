@@ -27,6 +27,11 @@ class Ques1 {
 
     public String index() {
         StringBuilder sb = new StringBuilder();
+        sb.append("index: ");
+        for (int i = 0; i < getStr().length(); i++) {
+            sb.append(i + "\t");
+
+        }
     }
 
 }
