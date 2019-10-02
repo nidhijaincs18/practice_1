@@ -16,4 +16,8 @@ class Ques9 {
     public Ques9(String str) {
         this.str = str;
     }
+
+    public String getStr() {
+        return str;
+    }
 }
