@@ -21,7 +21,7 @@ class Ques9 {
         return str;
     }
 
-    public void setStr() {
+    public void setStr(String str) {
         this.str = str;
     }
 }
