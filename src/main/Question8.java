@@ -6,3 +6,6 @@ public class Question8 {
     }
 }
 
+class Ques8 {
+
+}
