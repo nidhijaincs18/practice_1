@@ -8,7 +8,7 @@ public class Question11 {
         String str = s.nextLine();
         char ch = s.next().charAt(0);
         Ques11 q = new Ques11(str, ch);
-
+        System.out.println(q.index());
     }
 }
 
