@@ -15,4 +15,8 @@ class Ques4 {
     public Ques4(String str) {
         this.str = str;
     }
+
+    public String getStr() {
+        return str;
+    }
 }
