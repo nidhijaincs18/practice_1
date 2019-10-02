@@ -19,4 +19,12 @@ class Ques11 {
         this.str = str;
         this.ch = ch;
     }
+
+    public String getStr() {
+        return str;
+    }
+
+    public char getCh() {
+        return ch;
+    }
 }
