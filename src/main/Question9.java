@@ -24,4 +24,15 @@ class Ques9 {
     public void setStr(String str) {
         this.str = str;
     }
+
+    public int upperWeight() {
+        int sum = 0;
+        for (int i = 0; i < getStr().length(); i++) {
+            if (getStr().charAt(i) >= 65 && getStr().charAt(i) <= 90) {
+                sum += (int) getStr().charAt(i);
+            }
+        }
+        return sum;
+    }
+
 }
