@@ -26,13 +26,23 @@ class Ques9 {
     }
 
     public int upperWeight() {
-        int sum = 0;
+        int sum1 = 0;
         for (int i = 0; i < getStr().length(); i++) {
             if (getStr().charAt(i) >= 65 && getStr().charAt(i) <= 90) {
-                sum += (int) getStr().charAt(i);
+                sum1 += (int) getStr().charAt(i);
             }
         }
-        return sum;
+        return sum1;
+    }
+
+    public int lowerWeight() {
+        int sum2 = 0;
+        for (int i = 0; i < getStr().length(); i++) {
+            if (getStr().charAt(i) >= 97 && getStr().charAt(i) <= 122) {
+                sum2 += (int) getStr().charAt(i);
+            }
+        }
+        return sum2;
     }
 
 }
