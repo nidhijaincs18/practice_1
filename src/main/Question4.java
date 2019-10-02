@@ -6,7 +6,8 @@ public class Question4 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
-
+        Ques4 q = new Ques4(str);
+        System.out.println(q.vowels());
     }
 }
 
