@@ -27,4 +27,12 @@ class Ques11 {
     public char getCh() {
         return ch;
     }
+
+    public void setStr(String str) {
+        this.str = str;
+    }
+
+    public void setCh(char ch) {
+        this.ch = ch;
+    }
 }
