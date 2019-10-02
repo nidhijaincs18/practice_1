@@ -16,4 +16,8 @@ class Ques8 {
     public Ques8(String str) {
         this.str = str;
     }
+
+    public String getStr() {
+        return str;
+    }
 }
