@@ -20,4 +20,8 @@ class Ques9 {
     public String getStr() {
         return str;
     }
+
+    public void setStr() {
+        this.str = str;
+    }
 }
