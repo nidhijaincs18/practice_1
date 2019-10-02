@@ -35,4 +35,14 @@ class Ques11 {
     public void setCh(char ch) {
         this.ch = ch;
     }
+
+    public String index() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < getStr().length(); i++) {
+            if (getStr().charAt(i) == getCh()) {
+                sb.append(i + "\n")
+            }
+        }
+        return sb.toString();
+    }
 }
