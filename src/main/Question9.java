@@ -7,7 +7,7 @@ public class Question9 {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         Ques9 q = new Ques9(str);
-
+        System.out.println(q.absoluteWeight());
     }
 }
 
@@ -47,6 +47,6 @@ class Ques9 {
     }
 
     public int absoluteWeight() {
-        return upperWeight() - lowerWeight();
+        return Math.abs(upperWeight() - lowerWeight());
     }
 }
