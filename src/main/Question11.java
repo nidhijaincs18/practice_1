@@ -41,7 +41,7 @@ class Ques11 {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < getStr().length(); i++) {
             if (getStr().charAt(i) == getCh()) {
-                sb.append(i + "\n")
+                sb.append(i + "\n");
             }
         }
         return sb.toString();
