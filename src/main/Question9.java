@@ -45,4 +45,7 @@ class Ques9 {
         return sum2;
     }
 
+    public int absoluteWeight() {
+        return upperWeight() - lowerWeight();
+    }
 }
