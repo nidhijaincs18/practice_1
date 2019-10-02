@@ -15,5 +15,8 @@ class Ques11 {
     private String str;
     private char ch;
 
-
+    public Ques11(String str, char ch) {
+        this.str = str;
+        this.ch = ch;
+    }
 }
