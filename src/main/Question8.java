@@ -7,8 +7,7 @@ public class Question8 {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         Ques8 q = new Ques8(str);
-
-
+        System.out.println(q.upperWeight());
     }
 }
 
