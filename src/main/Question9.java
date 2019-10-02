@@ -11,5 +11,5 @@ public class Question9 {
 }
 
 class Ques9 {
-
+    private String str;
 }
